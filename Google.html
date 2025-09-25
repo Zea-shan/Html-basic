@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Simple Google-like Page (HTML only)</title>
+</head>
+<body>
+  <header>
+    <h1 style="text-align:center; font-size:0">Google</h1>
+  </header>
+
+  <main>
+    <div style="text-align:center; margin-top:10vh;">
+      <!-- Replace src with your logo file if you wish -->
+      <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+           alt="Google" width="272" height="92">
+      <form action="https://www.google.com/search" method="GET" style="margin-top:20px;">
+        <!-- q is the query parameter Google expects -->
+        <input name="q" type="text" placeholder="Search Google or type a URL" size="40" />
+        <br><br>
+        <input type="submit" value="Google Search" />
+        <input type="submit" name="btnI" value="I'm Feeling Lucky" />
+      </form>
+    </div>
+  </main>
+
+  <footer style="position:fixed; left:0; right:0; bottom:0; text-align:center; padding:8px 0;">
+    <small>Country · About · Privacy · Terms</small>
+  </footer>
+</body>
+</html>
